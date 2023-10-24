@@ -1,7 +1,4 @@
 import React from "react";
-import dekstopHeroImage from "../assets/home/desktop/image-hero-coffeepress.jpg";
-import tabletHeroImage from "../assets/home/tablet/image-hero-coffeepress.jpg";
-import mobileHeroImage from "../assets/home/mobile/image-hero-coffeepress.jpg";
 
 const Home = () => {
   return (
