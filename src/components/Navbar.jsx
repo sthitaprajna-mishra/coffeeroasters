@@ -15,13 +15,13 @@ const Navbar = () => {
         </div>
         <div className="hidden uppercase font-barlow text-grey font-bold text-xs md:block">
           <ul className="flex items-center space-x-4 tracking-wide">
-            <li>
+            <li className="hover:text-darkGreyBlue hover:cursor-pointer transition-all">
               <a href="">Home</a>
             </li>
-            <li>
+            <li className="hover:text-darkGreyBlue hover:cursor-pointer transition-all">
               <a href="">About</a>
             </li>
-            <li>
+            <li className="hover:text-darkGreyBlue hover:cursor-pointer transition-all">
               <a href="">Create your plan</a>
             </li>
           </ul>

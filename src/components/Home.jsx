@@ -1,13 +1,10 @@
 import React from "react";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <div className="border-1 h-full border-green-500 mt-12 bg-cover bg-no-repeat bg-mobileHeroImage rounded-2xl md:rounded-xl md:bg-tabletHeroImage lg:rounded-lg lg:bg-desktopHeroImage">
-      <div className="md:w-3/4 lg:w-1/2 py-16 pl-16">
-        <h1 className="md:text-6xl lg:text-7xl leading-none font-black font-fraunces text-lightCream">
-          Great coffee made simple.
-        </h1>
-      </div>
+    <div className="mt-12">
+      <Hero />
     </div>
   );
 };
