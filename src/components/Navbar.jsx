@@ -14,7 +14,7 @@ const Navbar = () => {
           <img src={hamburgericon} />
         </div>
         <div className="hidden uppercase font-barlow text-grey font-bold text-xs md:block">
-          <ul className="flex items-center space-x-4 tracking-wide">
+          <ul className="flex items-center space-x-4 tracking-wider">
             <li className="hover:text-darkGreyBlue hover:cursor-pointer transition-all">
               <a href="">Home</a>
             </li>

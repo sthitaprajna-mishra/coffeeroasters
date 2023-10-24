@@ -21,6 +21,7 @@ export default {
         paleOrange: "hsl(25, 94%, 86%)",
         lightCream: "hsl(43, 78%, 98%)",
         grey: "hsl(215, 5%, 54%)",
+        lightCyan: "#66d1cf",
       },
     },
   },

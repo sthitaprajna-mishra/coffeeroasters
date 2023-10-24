@@ -14,7 +14,10 @@ const Hero = () => {
             your door, at your schedule.
           </p>
         </div>
-        <div className="mt-8 mx-auto md:mx-0 bg-darkCyan w-fit px-6 py-3 text-lg font-fraunces text-lightCream font-bold rounded-lg">
+        <div
+          className="mt-8 mx-auto md:mx-0 bg-darkCyan w-fit px-6 py-3 text-lg font-fraunces text-lightCream font-bold rounded-lg 
+        hover:cursor-pointer transition-all hover:bg-lightCyan"
+        >
           <button>Create your plan</button>
         </div>
       </div>
