@@ -5,7 +5,7 @@ import hamburgericon from "../assets/shared/mobile/icon-hamburger.svg";
 const Navbar = () => {
   return (
     <>
-      <div className="mt-12 mx-16 col-span-12 h-fit flex justify-between items-center border-1 border-red-500">
+      <div className="flex justify-between items-center border-1 border-red-500">
         <div>
           <img src={logo} />
         </div>

@@ -7,6 +7,14 @@ export default {
       fraunces: ["Fraunces", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        desktopHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/home/desktop/image-hero-coffeepress.jpg')",
+        tabletHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/home/tablet/image-hero-coffeepress.jpg')",
+        mobileHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/home/mobile/image-hero-coffeepress.jpg')",
+      },
       colors: {
         darkCyan: "hsl(179, 81%, 29%)",
         darkGreyBlue: "hsl(215, 19%, 25%)",
