@@ -7,7 +7,7 @@ import imageDanche from "../assets/home/desktop/image-danche.png";
 
 const OurCollection = () => {
   return (
-    <div className="mt-40">
+    <div className="my-40">
       <div className="text-center">
         <h1
           className="text-4xl md:text-8xl lg:text-[10rem] font-fraunces tracking-wider font-black bg-clip-text 

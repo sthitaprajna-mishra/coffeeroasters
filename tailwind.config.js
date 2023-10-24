@@ -14,6 +14,8 @@ export default {
           "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/home/tablet/image-hero-coffeepress.jpg')",
         mobileHeroImage:
           "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/home/mobile/image-hero-coffeepress.jpg')",
+        desktopWhyChooseUs:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/plan/desktop/bg-steps.png')",
       },
       colors: {
         darkCyan: "hsl(179, 81%, 29%)",
