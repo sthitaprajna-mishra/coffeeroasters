@@ -16,8 +16,8 @@ const OurCollection = () => {
           our collection
         </h1>
       </div>
-      <div className="grid grid-cols-12 mt-10 md:-mt-10">
-        <div className="col-span-12 space-y-6 md:space-y-12 mb-12 md:mb-0 md:col-span-3">
+      <div className="grid grid-cols-12 mt-10 md:-mt-4 lg:-mt-10">
+        <div className="col-span-12 space-y-6 md:flex lg:block lg:space-y-12 mb-12 lg:mb-0 lg:col-span-3">
           <div>
             <img
               className="mx-auto"
@@ -25,7 +25,7 @@ const OurCollection = () => {
               alt="imageGranEspresso"
             />
           </div>
-          <div className="text-center space-y-6 w-4/5 mx-auto">
+          <div className="text-center md:text-left lg:text-center w-4/5 md:w-3/5 space-y-6 lg:w-4/5 mx-auto">
             <h2 className="text-2xl font-bold font-fraunces">Gran Espresso</h2>
             <p>
               Light and flavorful blend with cocoa and black pepper for an
@@ -33,11 +33,11 @@ const OurCollection = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-12 space-y-6 md:space-y-12 mb-12 md:mb-0 md:col-span-3">
+        <div className="col-span-12 space-y-6 md:flex lg:block lg:space-y-12 mb-12 lg:mb-0 lg:col-span-3">
           <div>
             <img className="mx-auto" src={imagePlanalto} alt="imagePlanalto" />
           </div>
-          <div className="text-center  space-y-6">
+          <div className="text-center md:text-left lg:text-center w-4/5 md:w-3/5 space-y-6 lg:w-4/5 mx-auto">
             <h2 className="text-2xl font-bold font-fraunces">Planalto</h2>
             <p>
               Brazilian dark roast with rich and velvety body, and hints of
@@ -45,11 +45,11 @@ const OurCollection = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-12 space-y-6 md:space-y-12 mb-12 md:mb-0 md:col-span-3">
+        <div className="col-span-12 space-y-6 md:flex lg:block lg:space-y-12 mb-12 lg:mb-0 lg:col-span-3">
           <div>
             <img className="mx-auto" src={imagePiccollo} alt="imagePiccollo" />
           </div>
-          <div className="text-center space-y-6 w-4/5 mx-auto">
+          <div className="text-center md:text-left lg:text-center w-4/5 md:w-3/5 space-y-6 lg:w-4/5 mx-auto">
             <h2 className="text-2xl font-bold font-fraunces">Piccollo</h2>
             <p className="font-barlow">
               Mild and smooth blend featuring notes of toasted almond and dried
@@ -57,11 +57,11 @@ const OurCollection = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-12 space-y-6 md:space-y-12 mb-12 md:mb-0 md:col-span-3">
+        <div className="col-span-12 space-y-6 md:flex lg:block lg:space-y-12 mb-12 lg:mb-0 lg:col-span-3">
           <div>
             <img className="mx-auto" src={imageDanche} alt="imageDanche" />
           </div>
-          <div className="text-center space-y-6 w-4/5 mx-auto">
+          <div className="text-center md:text-left lg:text-center w-4/5 md:w-3/5 space-y-6 lg:w-4/5 mx-auto">
             <h2 className="text-2xl font-bold font-fraunces">Danche</h2>
             <p>
               Ethiopian hand-harvested blend densely packed with vibrant fruit
