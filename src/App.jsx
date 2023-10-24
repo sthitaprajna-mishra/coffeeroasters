@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="grid grid-cols-12 min-h-screen bg-lightCream">
+      <div className="grid grid-cols-12 min-h-screen border-1 border-green-500 bg-lightCream">
         <Container />
       </div>
     </>
