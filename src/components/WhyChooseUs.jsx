@@ -7,12 +7,12 @@ import truckIcon from "../assets/home/desktop/icon-truck.svg";
 const WhyChooseUs = () => {
   return (
     <>
-      <div className="border border-transparent bg-cover bg-desktopWhyChooseUs md:pb-60 lg:pb-0">
+      <div className="border border-transparent bg-cover bg-mobileWhyChooseUs md:bg-desktopWhyChooseUs pb-60 lg:pb-0">
         <div className="my-20 pb-20 text-center mx-auto space-y-10">
-          <h1 className="text-lightCream text-4xl font-bold font-fraunces w-fit mx-auto">
+          <h1 className="text-lightCream text-3xl md:text-4xl font-bold font-fraunces w-fit mx-auto">
             Why choose us?
           </h1>
-          <p className="font-barlow md:w-3/5 lg:w-2/5 mx-auto text-lightCream">
+          <p className="font-barlow px-4 md:px-0 md:w-3/5 lg:w-2/5 mx-auto text-lightCream">
             A large part of our role is choosing which particular coffees will
             be featured in our range. This means working closely with the best
             coffee growers to give you a more impactful experience on every
@@ -20,44 +20,44 @@ const WhyChooseUs = () => {
           </p>
         </div>
       </div>
-      <div className="flex md:flex-col lg:flex-row gap-x-8 -mt-20 mx-10 md:-mt-80 lg:-mt-20">
-        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center md:mb-10 lg:text-center lg:pt-20 lg:space-y-16 lg:block">
+      <div className="flex flex-col lg:flex-row gap-x-8 mx-10 -mt-72 md:-mt-80 lg:-mt-20">
+        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center mb-10 text-center md:text-left  lg:text-center lg:pt-20 lg:space-y-16 lg:block">
           <div className="mx-auto w-fit">
             <img src={coffeeBeanIcon} alt="coffeeBeanIcon" />
           </div>
           <div className="space-y-8 md:w-3/5 lg:w-full">
-            <h2 className="text-lightCream text-2xl font-bold font-fraunces">
+            <h2 className="pt-3 md:pt-0 text-lightCream text-2xl font-bold font-fraunces">
               Best quality
             </h2>
-            <p className="text-lightCream font-barlow md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
+            <p className="text-lightCream font-barlow px-4 md:pl-0 md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
               Discover an endless variety of the world’s best artisan coffee
               from each of our roasters.
             </p>
           </div>
         </div>
-        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center md:mb-10 lg:text-center lg:pt-20 lg:space-y-16 lg:block">
+        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center mb-10 text-center md:text-left lg:text-center lg:pt-20 lg:space-y-16 lg:block">
           <div className="mx-auto w-fit">
             <img src={giftIcon} alt="giftIcon" />
           </div>
           <div className="space-y-8 md:w-3/5 lg:w-full">
-            <h2 className="text-lightCream text-2xl font-bold font-fraunces">
+            <h2 className="pt-3 md:pt-0 text-lightCream text-2xl font-bold font-fraunces">
               Exclusive benefits
             </h2>
-            <p className="text-lightCream font-barlow md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
+            <p className="text-lightCream font-barlow px-4 md:pl-0 md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
               Special offers and swag when you subscribe, including 30% off your
               first shipment.
             </p>
           </div>
         </div>
-        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center md:mb-10 lg:text-center lg:pt-20 lg:space-y-16 lg:block">
+        <div className="bg-darkCyan rounded-lg pt-10 pb-10 md:flex md:items-center mb-10 text-center md:text-left  lg:text-center lg:pt-20 lg:space-y-16 lg:block">
           <div className="mx-auto w-fit mt-2">
             <img src={truckIcon} alt="truckIcon" />
           </div>
-          <div className="pt-3 space-y-8  md:w-3/5 lg:w-full">
+          <div className="pt-3 space-y-8 md:w-3/5 lg:w-full">
             <h2 className="text-lightCream text-2xl font-bold font-fraunces">
               Free shipping
             </h2>
-            <p className="text-lightCream font-barlow md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
+            <p className="text-lightCream font-barlow px-4 md:pl-0 md:pr-10 lg:pr-0 lg:w-3/4 lg:mx-auto">
               We cover the cost and coffee is delivered fast. Peak freshness:
               guaranteed.
             </p>
