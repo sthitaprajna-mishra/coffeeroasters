@@ -56,6 +56,12 @@ const HowItWorks = () => {
           </div>
         </div>
       </div>
+      <div
+        className="mt-12 mx-auto md:mx-0 bg-darkCyan w-fit px-6 py-3 text-lg font-fraunces text-lightCream font-bold rounded-lg 
+        hover:cursor-pointer transition-all hover:bg-lightCyan"
+      >
+        <button>Create your plan</button>
+      </div>
     </div>
   );
 };
