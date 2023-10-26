@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="border-1 border-green-500 bg-cover bg-no-repeat bg-mobileHeroImage rounded-xl md:bg-tabletHeroImage lg:rounded-lg lg:bg-desktopHeroImage">
+    <div className="bg-cover bg-no-repeat bg-mobileHeroImage rounded-xl md:bg-tabletHeroImage lg:rounded-lg lg:bg-desktopHeroImage">
       <div className="w-full md:w-3/4 lg:w-1/2 py-40 md:py-24 sm:px-8 md:pl-16 md:pr-0">
         <h1 className="text-4xl px-4 md:px-0 md:text-6xl text-center md:text-left lg:text-7xl leading-none tracking-wide font-black font-fraunces text-lightCream">
           Great coffee made simple.

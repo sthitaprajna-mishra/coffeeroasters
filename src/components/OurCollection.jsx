@@ -11,7 +11,7 @@ const OurCollection = () => {
       <div className="text-center">
         <h1
           className="text-4xl md:text-8xl lg:text-[10rem] font-fraunces tracking-wider font-black bg-clip-text 
-        text-transparent bg-gradient-to-b from-grey to-lightCream border-1 border-red-500"
+        text-transparent bg-gradient-to-b from-grey to-lightCream"
         >
           our collection
         </h1>
