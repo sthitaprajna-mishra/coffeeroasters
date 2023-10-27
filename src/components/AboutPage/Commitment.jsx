@@ -6,7 +6,7 @@ import mobileCommitment from "../../assets/about/mobile/image-commitment.jpg";
 const Commitment = () => {
   return (
     <div className="mt-40 grid grid-cols-12 text-center md:text-left md:space-x-6 lg:space-x-6">
-      <div className="col-span-12 md:col-span-6">
+      <div className="col-span-12 mb-12 md:mb-0 md:col-span-6">
         <img
           className="hidden lg:block rounded-lg"
           src={desktopCommitment}
@@ -23,7 +23,7 @@ const Commitment = () => {
           alt="mobileCommitment"
         />
       </div>
-      <div className="col-span-12 mt-12 md:mt-0 md:col-span-6 my-auto space-y-12">
+      <div className="col-span-12 md:col-span-6 my-auto space-y-12">
         <div className="font-fraunces font-bold text-4xl">Our commitment</div>
         <p className="font-barlow text-grey">
           We’re built on a simple mission and a commitment to doing good along
