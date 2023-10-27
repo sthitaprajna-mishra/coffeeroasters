@@ -10,7 +10,7 @@ function App() {
     <>
       {/* Wrapper */}
       <div className="grid grid-cols-12 bg-lightCream">
-        <div className="col-span-12 mt-12 mx-8 md:mx-16 lg:mx-20">
+        <div className="col-span-12 mt-12 px-8 max-w-[1460px] md:px-16 lg:px-20 mx-auto">
           {/* Routes */}
           <Routes>
             <Route path="/" element={<Container />}>

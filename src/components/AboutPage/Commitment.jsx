@@ -5,7 +5,7 @@ import mobileCommitment from "../../assets/about/mobile/image-commitment.jpg";
 
 const Commitment = () => {
   return (
-    <div className="mt-40 grid grid-cols-12 text-center md:text-left md:space-x-6 lg:space-x-6">
+    <div className="mt-40 grid grid-cols-12 place-items-center text-center md:text-left md:space-x-6 lg:space-x-6">
       <div className="col-span-12 mb-12 md:mb-0 md:col-span-6">
         <img
           className="hidden lg:block rounded-lg"
