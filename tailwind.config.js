@@ -18,6 +18,12 @@ export default {
           "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/plan/desktop/bg-steps.png')",
         mobileWhyChooseUs:
           "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/plan/mobile/bg-steps.png')",
+        desktopAboutHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/about/desktop/image-hero-whitecup.jpg')",
+        tabletAboutHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/about/tablet/image-hero-whitecup.jpg')",
+        mobileAboutHeroImage:
+          "url('https://raw.githubusercontent.com/sthitaprajna-mishra/coffeeroasters/main/src/assets/about/mobile/image-hero-whitecup.jpg')",
       },
       colors: {
         darkCyan: "hsl(179, 81%, 29%)",

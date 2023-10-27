@@ -1,8 +1,8 @@
 // components
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
-import Plan from "./components/Plan";
+import About from "./components/AboutPage/About";
+import Plan from "./components/PlanPage/Plan";
 import Container from "./components/Container";
 
 function App() {
