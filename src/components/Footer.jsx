@@ -5,6 +5,8 @@ import facebook from "../assets/shared/desktop/icon-facebook.svg";
 import instagram from "../assets/shared/desktop/icon-instagram.svg";
 import twitter from "../assets/shared/desktop/icon-twitter.svg";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="bg-darkGreyBlue flex flex-col lg:flex-row px-16 py-12 justify-between items-center mt-32 mb-16">
@@ -19,19 +21,13 @@ const Footer = () => {
         <div className="uppercase font-barlow text-grey font-bold text-xs mt-8 lg:mt-2">
           <ul className="flex flex-col text-center space-y-4 md:space-y-0 md:text-left md:flex-row md:space-x-8">
             <li className="hover:text-lightCream hover:cursor-pointer transition-all">
-              <a className="uppercase tracking-wider" href="#">
-                home
-              </a>
+              <Link to="/">Home</Link>
             </li>
             <li className="hover:text-lightCream hover:cursor-pointer transition-all">
-              <a className="uppercase tracking-wider" href="#">
-                about
-              </a>
+              <Link to="/about">About</Link>
             </li>
             <li className="hover:text-lightCream hover:cursor-pointer transition-all">
-              <a className="uppercase tracking-wider" href="#">
-                create your plan
-              </a>
+              <Link to="/plan">Create your plan</Link>
             </li>
           </ul>
         </div>
